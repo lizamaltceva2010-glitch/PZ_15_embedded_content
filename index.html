@@ -1,28 +1,31 @@
 <!doctype html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <title>Медиатека</title>
-    <link rel="stylesheet" href="./styles/style.css" />
-  </head>
-  <body>
-    <header><h1>Медиатека города</h1></header>
-    <main>
-      <section>
-        <h2>Карта</h2>
-        <iframe title="Карта района" src="./embedded/map.html"></iframe>
-      </section>
-      <section>
-        <h2>Видео</h2>
-        <video controls poster="./media/poster.svg">
-          <!-- TODO: source -->
-        </video>
-      </section>
-      <section>
-        <h2>Аудио</h2>
-        <audio controls><!-- TODO: source --></audio>
-      </section>
-    </main>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Медиатека</title>
+  <link rel="stylesheet" href="./styles/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Медиатека города</h1>
+  </header>
+  <main>
+    <section>
+      <h2>Карта</h2>
+      <iframe title="Карта района" src="./embedded/map.html"></iframe>
+    </section>
+    <section>
+      <h2>Видео</h2>
+      <video controls poster="./media/poster.svg">
+        <source src="./media/istockphoto-1341027309-640_adpp_is.mp4" type="video/mp4">
+      </video>
+    </section>
+    <section>
+      <h2>Аудио</h2>
+      <audio controls>
+        <source src="./media/creepy-laugh-single-short-melodic-male.mp3" type="audio/mpeg">
+    </section>
+  </main>
+</body>
 </html>
